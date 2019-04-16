@@ -51,6 +51,16 @@
         figcaption{
             text-align: center;
         }
+        #tabeladenis{
+            margin-bottom: 2em;
+            border-collapse: collapse;
+        }
+        #tabeladenis td, #tabeladenis th {
+            border: 2px dimgray solid;
+        }
+        #tabeladenis tfoot tr:last-child td{
+            border: 0;
+        }
     </style>
 
     <body>
@@ -92,6 +102,31 @@
                 </ul>
             </nav>
         </body>
+
+        <!-- Tabela -->
+
+        <aside>
+          <h2>Informações Acadêmicas - CEO</h2>
+           <table id="tabeladenis">
+           <caption>Informações</caption>
+           <thead>
+               <tr><th>Formação</th><th>Faculdade</th><th>Ano</th></tr>
+           </thead>
+           <tbody>
+               <tr><td>Engenharia de Computação</td><td>UNIPAC</td><td>2016</td></tr>
+               <tr><td>CEFET</td><td>Técnico em Informática</td><td>2010</td></tr>
+               <tr><td>PUC MG</td><td>Desenvolvimento Web Full Stack</td><td>2020</td></tr>
+           </tbody>
+           <tfoot>
+               <tr><td>Concluído</td><td>Concluído</td><td>Cursando</td></tr>
+
+               <tr><td colspan="3">Informações acadêmica do Fundador - Denis Wilson</td></tr>
+           </tfoot>
+
+            </table>
+        </aside>
+
+
     </header>
     <p>&copy; 2019 - Denis Wilson - Todos os direitos reservados.</p>
 </html>
