@@ -3,19 +3,55 @@
     <head>
         <title>DW Sistems</title>
         <meta charset="utf-8"/>
+        <link href="normalize.css" rel="stylesheet"/>
 
         <!-- CSS - Criando dentro do Head, mas não é uma boa forma.
         - O seletor com o "body" formata o elemento por completo
         - O seletor com o nome do elemento, ele aplica a regra a apenas a aquele elemento
         -->
-
-        <style>
-            p, h1, h2, blockquote {
-                font-family: sans-serif;
-            }
-        </style>
-
     </head>
+
+    <style>
+        body{
+            font-family: Calibri, Arial, sans-serif;
+            font-weight: lighter;
+            font-size: 11pt;
+            background-color: #222224;
+            color: lightgray;
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+        a{
+            color: lightgrey;
+        }
+        h1{
+            font-weight: bold;
+            font-size: xx-large;
+            text-align: center;
+        }
+        h2{
+            font-size: 170%;
+        }
+        blockquote{
+            font-style: italic;
+            text-align: center;
+            font-family: cursive;
+        }
+        p{
+            text-align: justify;
+            line-height: 1.5;
+        }
+        figure img{
+            width: 250px;
+        }
+        figure{
+            width: 250px;
+            margin: 0 auto;
+        }
+        figcaption{
+            text-align: center;
+        }
+    </style>
 
     <body>
         <nav>
@@ -32,6 +68,8 @@
         Engenheiro de Computação e cursando Pós em Desenvolvimento Web Full Stack.
         </blockquote>
 
+         <figure><img src="deniswilson.jpg" alt="Foto do Denis Wilson" title="Denis Wilson"/><figcaption>Denis Wilson</figcaption></figure>
+
         <p>
             A DW Sistems é a principal agência de consultoria de software focada na entrega de soluções de transformação digital de ponta a ponta para organizações corporativas de todos os tipos. Muitas empresas presentes no ranking da Fortune 100 foram guiadas por nós através da inovação de software desde que abrimos as portas para os negócios em 2019.
         </p>
@@ -40,5 +78,20 @@
         <p>
             Começamos a fornecer soluções para o comércio eletrônico. Setor esse que foi impulsionado para evoluir rapidamente para acompanhar as demandas dos consumidores, o varejo vertical foi pioneiro na transformação digital, desde metodologias de ponta, ferramentas e tecnologias de primeira classe, até práticas inovadoras para sistemas de pagamento, entregas e muito mais.
         </p>
+        <p>
+            Formatar informação dos sites não é algo novo. Por volta de 1970, no começo da trajetória do SGML, já se falava em algo parecido.
+            Quando o HTML foi criado, a intenção não era de forma alguma, formatar informação. A medida que o HTML foi se popularizando e evoluindo, foram incluídas em suas qualidades, o domínio de controlar algumas aparências para o documento. Isso fez com que a linguagem ficasse muito complexa, mais dificil para entender e manter. Outro problema era que os browsers tinham diferenças de implementações, o que dificultava a visualização dos sites, trazendo menos controle na navegação pela web.
+        </p>
+        <body>
+            <nav>
+                <ul>
+                    <li>Qualidade</li>
+                    <li>Simplicidade</li>
+                    <li>Sucesso</li>
+                    <li>Resultados</li>
+                </ul>
+            </nav>
+        </body>
     </header>
+    <p>&copy; 2019 - Denis Wilson - Todos os direitos reservados.</p>
 </html>
